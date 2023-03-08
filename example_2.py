@@ -2,9 +2,9 @@
 import example_1
 import math.gcd as g
 #from kafka import KafkaConsumer, KafkaProducer
-import kafka.chess as k
-import kafka.query.input as i
-from kafka import KafkaConsumer, blarg
+# import kafka.chess as k
+# import kafka.query.input as i
+# from kafka import KafkaConsumer, blarg
 import mysql.connector
  
 # Creating connection object
@@ -14,16 +14,16 @@ mydb = mysql.connector.connect(
     password = "your_password"
 )
 
-consumer = KafkaConsumer(
-    'my-topic',
-     bootstrap_servers=['kafka:9092']
-)
+# consumer = KafkaConsumer(
+#     'my-topic',
+#      bootstrap_servers=['kafka:9092']
+# )
 
-greg = k.KafkaProducer(
-    bootstrap_servers=['kafka:9092']
-)
+# greg = k.KafkaProducer(
+#     bootstrap_servers=['kafka:9092']
+# )
 
-i()
+# i()
 
 example_1.calculate_size()
 print("wowza")
