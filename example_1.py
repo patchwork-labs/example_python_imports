@@ -1,5 +1,5 @@
-from resources import cool_python
+from resources import test_python
 
-def how_many_cows():
+def calculate_size():
     return 4
-print("cowabunga dude")
+print("size calculated")
