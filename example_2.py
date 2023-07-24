@@ -24,7 +24,7 @@ mydb = mysql.connector.connect(
 # )
 
 # i()
-
-example_1.calculate_size()
+def call_calculate():
+ example_1.calculate_size()
 print("wowza")
 g(4,2)
