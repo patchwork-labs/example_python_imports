@@ -23,8 +23,13 @@ mydb = mysql.connector.connect(
 #     bootstrap_servers=['kafka:9092']
 # )
 
-# i()
+# I()
+def call_me_baby():
+ return call_calculate()
+
 def call_calculate():
- example_1.calculate_size()
+ return example_1.calculate_size()
+
+calc = call_me_baby()
 print("wowza")
 g(4,2)
