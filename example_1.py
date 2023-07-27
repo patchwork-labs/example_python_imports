@@ -17,9 +17,12 @@ class shirts:
 
     def string_version(self):
         return "Shirt of size "+str(self.size)
+    
+def make_pants_and_shirt():
+    jeans = pants()
+    polo = shirts()
+    print(jeans.string_version())
+    print(polo.string_version())
 
-jeans = pants()
-polo = shirts()
-print(jeans.string_version())
-print(polo.string_version())
+make_pants_and_shirt()
 
