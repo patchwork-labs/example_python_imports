@@ -4,6 +4,9 @@ def calculate_size():
     return 4
 print("size calculated")
 
+def new_doubled_function():
+    return 6
+
 class pants:
     def __init__(self):
         self.size = 100

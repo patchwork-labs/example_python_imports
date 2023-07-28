@@ -14,6 +14,9 @@ mydb = mysql.connector.connect(
     password = "your_password"
 )
 
+def new_doubled_function():
+    return 8
+
 # consumer = KafkaConsumer(
 #     'my-topic',
 #      bootstrap_servers=['kafka:9092']
