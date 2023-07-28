@@ -7,14 +7,18 @@ print("size calculated")
 def new_doubled_function():
     return 6
 
-class pants:
+class clothing:
+    def __init__(self):
+        self.material = "cloth"
+
+class pants(clothing):
     def __init__(self):
         self.size = 100
 
     def string_version(self):
         return "Pant of size "+str(self.size)
     
-class shirts:
+class shirts(clothing):
     def __init__(self):
         self.size = 50
 
