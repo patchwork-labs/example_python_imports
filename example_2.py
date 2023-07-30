@@ -33,6 +33,8 @@ def call_me_baby():
 def call_calculate():
  answer = example_1.calculate_size()
  return answer
+
+answer = example_1.calculate_size()
 calc = call_me_baby()
 print("wowza")
 g(4,2)
