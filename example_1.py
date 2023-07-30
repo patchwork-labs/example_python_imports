@@ -32,4 +32,5 @@ def make_pants_and_shirt():
     print(polo.string_version())
 
 make_pants_and_shirt()
+test_python.test_python_print()
 
