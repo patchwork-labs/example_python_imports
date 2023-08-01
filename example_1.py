@@ -28,8 +28,8 @@ class shirts(clothing):
 def make_pants_and_shirt():
     jeans = pants()
     polo = shirts()
-    print(jeans.string_version())
-    print(polo.string_version())
+    jean_size = jeans.string_version()
+    polo_size = polo.string_version()
 
 make_pants_and_shirt()
 answer = test_python.test_python_print()
