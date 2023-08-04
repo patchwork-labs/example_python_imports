@@ -1,4 +1,4 @@
-from resources import test_python
+from resources import test_python as tp
 
 def calculate_size():
     return 4
@@ -32,5 +32,4 @@ def make_pants_and_shirt():
     polo_size = polo.string_version()
 
 make_pants_and_shirt()
-answer = test_python.test_python_print()
-
+answer = tp.test_python_print()
