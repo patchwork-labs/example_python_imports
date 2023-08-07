@@ -1,40 +1,27 @@
-#from example_1 import calculate_size
-import example_1
+# Tests for import functions
+import class_examples
+from class_examples import calculate_size
+import class_examples as ce
+from class_examples import calculate_size as cs
+from class_examples import calculate_size, new_doubled_function
+from class_examples import calculate_size, new_doubled_function as ndf
+from class_examples import calculate_size as cs, new_doubled_function as ndf
+from class_examples import calculate_size as cs, new_doubled_function
 import math.gcd as g
-#from kafka import KafkaConsumer, KafkaProducer
-# import kafka.chess as k
-# import kafka.query.input as i
-# from kafka import KafkaConsumer, blarg
-import mysql.connector
+
  
-# Creating connection object
-mydb = mysql.connector.connect(
-    host = "localhost",
-    user = "yourusername",
-    password = "your_password"
-)
+# TODO: support non-local import functions
+g(32)
 
 def new_doubled_function():
     return 8
 
-# consumer = KafkaConsumer(
-#     'my-topic',
-#      bootstrap_servers=['kafka:9092']
-# )
-
-# greg = k.KafkaProducer(
-#     bootstrap_servers=['kafka:9092']
-# )
-
-# I()
-def call_me_baby():
+def call_call_calculate():
  return call_calculate()
 
 def call_calculate():
- answer = example_1.calculate_size()
+ answer = class_examples.calculate_size()
  return answer
 
-answer = example_1.calculate_size()
-calc = call_me_baby()
-print("wowza")
-g(4,2)
+answer = class_examples.calculate_size()
+calc = call_call_calculate()

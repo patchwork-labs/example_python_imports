@@ -1,4 +1,4 @@
-from .. import example_1
+from .. import class_examples
 
 def test_python_print():
   print("cool python")

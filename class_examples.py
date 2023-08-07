@@ -2,7 +2,6 @@ from resources import test_python as tp
 
 def calculate_size():
     return 4
-print("size calculated")
 
 def new_doubled_function():
     return 6
@@ -11,6 +10,7 @@ class clothing:
     def __init__(self):
         self.material = "cloth"
 
+# TODO: support class inheritance calls
 class pants(clothing):
     def __init__(self):
         self.size = 100
