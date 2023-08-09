@@ -1,12 +1,12 @@
 # Tests for import functions
 import class_examples
-from class_examples import calculate_size
-import class_examples as ce
-from class_examples import calculate_size as cs
-from class_examples import calculate_size, new_doubled_function
-from class_examples import calculate_size, new_doubled_function as ndf
-from class_examples import calculate_size as cs, new_doubled_function as ndf
-from class_examples import calculate_size as cs, new_doubled_function
+# from class_examples import calculate_size
+# import class_examples as ce
+# from class_examples import calculate_size as cs
+# from class_examples import calculate_size, new_doubled_function
+# from class_examples import calculate_size, new_doubled_function as ndf
+# from class_examples import calculate_size as cs, new_doubled_function as ndf
+# from class_examples import calculate_size as cs, new_doubled_function
 import math.gcd as g
 
  
