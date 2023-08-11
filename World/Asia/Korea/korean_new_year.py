@@ -1,4 +1,6 @@
-def date():
+from typing import Optional
+
+def korean_date():
     return "1 January"
 
 def celebrate(num_people, location, date):
@@ -22,4 +24,5 @@ def police_check(age):
     else:
         print("You are under 18")
 
-celebrate()
+# TODO: calling this celebrate will cause a connection to chinese_new_year.py's celebrate 
+# celebrate()

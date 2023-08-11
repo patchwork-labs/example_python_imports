@@ -1,6 +1,6 @@
 from Korea import korean_new_year
 
-def date():
+def chinese_date():
     return "1 February"
 
 def celebrate(num_people, location, date):
@@ -26,7 +26,7 @@ def police_check(age):
 
 def overlapping_celebration(): # TODO: What if date was passed in as a parameter?
     date = date()
-    korean_date = korean_new_year.date()
+    korean_date = korean_new_year.korean_date()
     if korean_date == date:
         print("The Korean New Year overlaps with the Chinese New Year.")
     else:
