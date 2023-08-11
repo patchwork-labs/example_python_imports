@@ -3,7 +3,7 @@ from Korea import korean_new_year
 def chinese_date():
     return "1 February"
 
-def celebrate(num_people, location, date):
+def celebrate_chinese_new_year(num_people, location, date):
     """Celebrate the new year in China."""
     if num_people > 3:
         print("You'll need to book a table.")
