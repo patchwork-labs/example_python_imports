@@ -1,3 +1,3 @@
 # example_python_imports
 
-python system where different files are imported 
+pseudo code base for a world simulation
